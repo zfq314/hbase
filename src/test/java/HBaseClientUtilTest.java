@@ -24,7 +24,7 @@ public class HBaseClientUtilTest {
 
   @Test
   public void deleteTable() throws IOException {
-    String result = HBaseClientUtil.deleteTable("jqtest");
+    String result = HBaseClientUtil.deleteTable("weibo:content");
     System.out.println(result);
   }
 
